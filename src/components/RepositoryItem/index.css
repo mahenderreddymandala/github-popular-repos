@@ -1,0 +1,76 @@
+/* Write your CSS here */
+.p-container {
+  list-style-type: none;
+  height: 30%;
+  width: 30%;
+  border: 0px solid #f8f8ff;
+  background-color: #f8f8ff;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.avatar-image {
+  height: 60%;
+  width: 60%;
+  border-radius: 5px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.icons {
+  height: 5%;
+  width: 5%;
+  margin: 18px;
+}
+.heading-name {
+  color: #e73959;
+}
+
+@media (max-width: 680px) {
+  .p-container {
+    list-style-type: none;
+    height: 100%;
+    width: 90%;
+    border: 0px solid #f8f8ff;
+    background-color: #f8f8ff;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .avatar-image {
+    height: 60%;
+    width: 60%;
+    border-radius: 2px;
+    margin-left: 60px;
+    margin-top: 10px;
+  }
+  .section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .icons {
+    height: 15%;
+    width: 15%;
+    margin: 8px;
+  }
+  .heading-name {
+    color: #e73959;
+    font-size: 15px;
+  }
+}

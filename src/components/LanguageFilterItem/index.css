@@ -1,0 +1,52 @@
+/* Write your CSS here */
+
+.list-items {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+.tab-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.paragraph5 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.active-tab-btn {
+  border: 2px solid #0284c7;
+  border-radius: 10px;
+}
+
+.params {
+  color: #0284c7;
+}
+
+@media (max-width: 680px) {
+  .list-items {
+    list-style-type: none;
+    margin-left: 2px;
+    width: 40%;
+  }
+
+  .tab-btn {
+    background-color: transparent;
+    border: none;
+  }
+
+  .paragraph5 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .active-tab-btn {
+    border: 2px solid #0284c7;
+    border-radius: 5px;
+  }
+
+  .params {
+    color: #0284c7;
+  }
+}
